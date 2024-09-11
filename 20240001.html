@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Fatura Vaapty Select Uberlândia</title>
+
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+    <link rel="shortcut icon" href="imagens/favicon_io/favicon.ico" type="image/x-icon">
+    <style type="text/css">
+        body {
+            margin: 23px;
+        }
+
+        h1 {
+            font-size: 32px;
+            margin: 0px;
+            height: 50px;
+            font-weight: normal;
+            color: #5e7d8a;
+        }
+
+        h2 {
+            font-size: 18px;
+            color: black;
+            opacity: 0.6;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+            font-weight: 350;
+        }
+
+        a {
+            text-decoration: none;
+            font-weight: 420;
+            color: #5e7d8a;
+        }
+
+        #logoArea {
+            position: relative;
+            top: -100%;
+        }
+
+        #logoImage {
+            max-height: 75px;
+            max-width: 300px;
+            display: block;
+            margin-left: auto;
+            padding-bottom: 10px;
+        }
+
+        #fatura {
+            max-width: 960px;
+            border: 1px #ddd solid;
+            -webkit-border-radius: 4px;
+            -moz-border-radius: 4px;
+            border-radius: 4px;
+            margin: 0 auto;
+            margin-bottom: 23px;
+            margin-top: 23px;
+            padding: 23px;
+            background: #fff;
+            box-shadow: 5px 5px 15px #aaa;
+            box-shadow: none;
+        }
+
+        .traco_cliente {
+            border: none;
+            width: 50%;
+            vertical-align: text-top;
+        }
+
+        table {
+            border-width: 0px;
+            border-style: solid;
+            border-color: #ccc;
+            border-spacing: 0;
+        }
+
+        strong {
+            opacity: 0.6;
+        }
+
+        td,
+        th {
+            padding: 10px;
+            border-width: 0px 0px 1px 0px;
+            border-color: #ddd;
+            border-style: solid;
+        }
+
+        th.cabecalho {
+            background: #f3f3f3;
+            border: 0px;
+        }
+
+        .traco_inferior_pedido {
+            text-align: left;
+            color: #aaa;
+            border-top: 1px solid #aaa;
+        }
+
+        .traco_prestador {
+            width: 50%;
+            border: none;
+            vertical-align: baseline;
+        }
+
+        #traco_superior_pedido {
+            border-bottom: 1px solid #aaa;
+            padding-bottom: 0.5em;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="fatura">
+        <h1>
+            Fatura
+            <div id="logoArea"> <img id="logoImage" src="imagens/android-chrome-512x512-dark.png" style="opacity: 23%;">
+            </div>
+        </h1>
+        <h2 id="traco_superior_pedido">
+            Número do pedido: <a href="#">20240001</a>
+            <br>
+            Data de criação: <a href="#">10/09/2024</a>
+            </h3>
+            <table width="100%">
+                <tbody>
+                    <tr>
+                        <td class="traco_cliente">
+                            <div>
+                                <h2>Cliente</h2>
+                                <p>
+                                    <strong style="opacity: 0.6;">
+                                        <a href="https://vaaptyselectuberlandia.com/" target="_blank">Vaapty Select
+                                            Uberlândia</a>
+                                    </strong>
+                                    <br>
+                                    Av. Floriano Peixoto, 4291
+                                    <br>
+                                    Custódio Pereira
+                                    <br>
+                                    Uberlândia - MG
+                                    <br>38405-184
+                                    <br>
+                                    <a href="https://vaaptyselectuberlandia.com/"
+                                        target="_blank">vaaptyselectuberlandia.com</a>
+                                </p>
+                            </div>
+                        </td>
+                        <td class="traco_prestador">
+                            <div>
+                                <h2>Prestador</h2>
+                                <p>
+                                    <strong style="opacity: 0.6;">
+                                        <a href="https://murilochaves.dev.br/" target="_blank">Murilo Chaves Jayme</a>
+                                    </strong>
+                                    <br>
+                                    Rua Vinte e Nove de Outubro, 701
+                                    <br>
+                                    Patrimônio
+                                    <br>
+                                    Uberlândia - MG
+                                    <br>
+                                    38411-068
+                                    <br>
+                                    <a href="https://murilochaves.dev.br/" target="_blank">murilochaves.dev.br</a>
+                                </p>
+                            </div>
+                        </td>
+                        <td class="traco_prestador">
+                            <div>
+                                <h2 style="text-align: center;">Chave Pix</h2>
+                                <img src="imagens/chave_pix.png" alt="" style="width: 123px;">
+                                <p style="text-align: center;"><a href="#">023.442.071-55</a></p>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <table width="100%">
+                <tbody>
+                    <tr>
+                        <th align="left" class="cabecalho" style="width:50%">
+                            <h2>Descrição</h2>
+                        </th>
+                        <th align="center" class="cabecalho" style="width:15%">
+                            <h2>Valor unitário</h2>
+                        </th>
+                        <th align="right" class="cabecalho" style="width:4%">
+                            <h2>Quantidade</h2>
+                        </th>
+                        <th align="right" class="cabecalho" style="width:18%"></th>
+                        <th align="right" class="cabecalho" style="width:13%">
+                            <h2>Subtotal</h2>
+                        </th>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <p><strong>Cabo de Força Tri polar (Padrao Novo)</strong> <br> Desktop: Helton</p>
+                        </td>
+                        <td align="center">
+                            <p>R$ 19,00</p>
+                        </td>
+                        <td align="right">
+                            <p>x1</p>
+                        </td>
+                        <td align="right" colspan="2">
+                            <p>R$ 19,00</p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <p>
+                                <strong>Memoria 8GB DDR3 1600Mhz - Kingston (KVR16N11/8)</strong> <br> Desktop's:
+                                Giselly; Guilherme; Helton; Palbo e Reserva
+                            </p>
+                        </td>
+                        <td align="center">
+                            <p>R$ 129,00</p>
+                        </td>
+                        <td align="right">
+                            <p>x5</p>
+                        </td>
+                        <td align="right" colspan="2">
+                            <p>R$ 645,00</p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <p><strong>Formatação (Windows 10 Pro) com Backup</strong> <br> Desktop's: Giselly;
+                                Guilherme; Helton; Palbo e Reserva <br> Notebook: Samsung</p>
+                        </td>
+                        <td align="center">
+                            <p>R$ 100,00</p>
+                        </td>
+                        <td align="right">
+                            <p>x6</p>
+                        </td>
+                        <td align="right" colspan="2">
+                            <p>R$ 600,00</p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <p><strong>Restauração (Windows 10)</strong> <br> Notebook: HP</p>
+                        </td>
+                        <td align="center">
+                            <p>R$ 100,00</p>
+                        </td>
+                        <td align="right">
+                            <p>x1</p>
+                        </td>
+                        <td align="right" colspan="2">
+                            <p>R$ 100,00</p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td align="right" colspan="4">
+                            <h2>Subtotal</h2>
+                        </td>
+                        <td align="right">
+                            <h2>R$ 1.364,00</h2>
+                        </td>
+                    </tr>
+
+
+                    <tr>
+                        <td align="right" colspan="4">
+                            <p>Adiantamento</p>
+                        </td>
+                        <td align="right">
+                            <p>R$ 869,00</p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="round-left totalTd" colspan="3"></td>
+                        <td align="right" class="totalTd">
+                            <h2>Total (em aberto)</h2>
+                        </td>
+                        <td align="right">
+                            <h2>R$ 495,00</h2>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="traco_inferior_pedido">
+                <h3 class="invoice-id">
+                    <h2>Número do pedido: <a href="#">20240001</a></h2>
+                </h3>
+            </div>
+
+    </div>
+
+    <br>
+
+
+</body>
+
+</html>
